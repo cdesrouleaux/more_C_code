@@ -3,7 +3,7 @@
 //  ChristopherDesrouleaux_Assign6
 //
 //  Created by Christopher Desrouleaux on 10/15/21.
-//
+//  Purpose - Use of functions in C
 
 #include <stdio.h>
 #include <math.h>
