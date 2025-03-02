@@ -3,7 +3,7 @@
 //  ChristopherDesrouleaux_Assign5
 //
 //  Created by Christopher Desrouleaux on 10/2/21.
-//
+//  Purpose - Use of do-while loops
 
 #include <stdio.h>
 #include <math.h>
