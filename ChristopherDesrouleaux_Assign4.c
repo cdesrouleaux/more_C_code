@@ -3,7 +3,7 @@
 //  Assignment4
 //
 //  Created by Christopher Desrouleaux on 9/26/21.
-//
+//  Purpose - Using switch statements to get desired outputs
 
 #include <stdio.h>
 #include <math.h>
