@@ -1,0 +1,66 @@
+//
+//  main.c
+//  ChristopherDesrouleaux_Assignment99
+//
+//  Created by Christopher Desrouleaux on 11/7/21.
+//
+
+#include <stdio.h>
+#define SIZE 4
+
+void gimmeMoney(double userchange, int ar[]);
+
+int main()
+{
+    int dollarAmt = 0, changeAmt = 0;
+    int arr[SIZE];
+    
+    printf("Enter expected change amount from purchase? (enter: ex. 1.77) >> ");
+    scanf("%d.%d", &dollarAmt, &changeAmt);
+    printf("Expected change: $%d.%d\n", dollarAmt, changeAmt);
+    
+    printf("Dollar bills %d\n", dollarAmt);
+
+    
+    for(int i = 0; i == 0; i++)
+    {
+        gimmeMoney(changeAmt, &arr[i]);
+        printf("Quarters: %d\n", arr[i]);
+    }
+    for(int i = 1; i == 1; i++)
+    {
+        gimmeMoney(changeAmt, &arr[i]);
+        printf("Dimes: %d\n", arr[i]);
+    }
+    for(int i = 2; i == 2; i++)
+    {
+        gimmeMoney(changeAmt, &arr[i]);
+        printf("Nickles: %d\n", arr[i]);
+    }
+    for(int i = 3; i == 3; i++)
+    {
+        gimmeMoney(changeAmt, & arr[i]);
+        printf("Pennies: %d\n", arr[i]);
+    }
+
+    return 0;
+}
+// Function purpose is to denomoniate the chage into coins.
+void gimmeMoney(double userchange, int ar)
+{
+    int quarter, dimes, nickles, pennies;
+    
+    quarter = (int)userchange / 25;
+    dimes = (int)userchange / 10;
+    nickles = (int)userchange / 5;
+    pennies = (int)userchange / 1;
+    
+    
+    ar[0] = quarter;
+    ar[1] = dimes;
+    ar[2] = nickles;
+    ar[3] = pennies;
+    
+            
+//    printf("%d, %d, %d, %d  ", quarter, dimes, nickles, pennies);
+}
